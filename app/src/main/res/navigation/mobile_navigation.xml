@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.firstapplication.secondapplication.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="home page" />
+
+    <fragment
+        android:id="@+id/connect"
+        android:name="com.firstapplication.secondapplication.ui.connect.ConnectFragment"
+        android:label="@string/connect"
+        tools:layout="connection scene" />
+
+    <fragment
+        android:id="@+id/account"
+        android:name="com.firstapplication.secondapplication.ui.account.AccountFragment"
+        android:label="@string/account"
+        tools:layout="account information" />
+
+    <fragment
+        android:id="@+id/more"
+        android:name="com.firstapplication.secondapplication.ui.More2.MoreFragment"
+        android:label="@string/more"
+        tools:layout="more options" />
+
+
+</navigation>

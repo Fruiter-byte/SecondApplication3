@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/Username2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Username2"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="New Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Register2"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newPassword"
+        android:layout_centerHorizontal="true"
+        android:text="Register Me"
+        android:translationY="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Username2"
+        android:layout_centerHorizontal="true"
+        android:text="Not already a member? Please register a new account here!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:translationY="-140dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Register2"
+        android:layout_centerHorizontal="true"
+        android:text="Already registered? Log in here!"
+        android:translationY="40dp" />
+
+</RelativeLayout>
